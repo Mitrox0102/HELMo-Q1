@@ -1,0 +1,53 @@
+body {
+    font-family: 'Stack Sans Headline', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbdbdb;
+}
+
+header, footer {
+    background-color: #363636;
+    color: white;
+}
+
+main {
+    color: #757575;
+}
+
+main>section{
+    font-size: 20px;
+}
+
+blockquote {
+    text-align: center;
+    font-style: utter;
+    font-size: 1.5em;
+}
+
+span {
+    background-color: #81b600;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 3rem;
+}
+
+article {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7a7a7a;
+    margin:1.5rem;
+}
+
+a {
+    color: #81b600;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,182 @@
+body {
+    font-family: Tahoma;
+    font-size: 1rem;
+    background-color: #eee;
+}
+
+header, footer {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    background-color: #333;
+    margin: 0;
+    padding: 1rem;
+}
+
+header{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.centrage{
+
+}
+
+main {
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+article {
+    box-shadow: #333 2px 2px 10px;
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+    align-items: baseline;
+
+}
+
+article>a{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+span {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+h3 {
+    font-size: 2rem;
+    color: green;
+}
+
+Vraie Version
+
+title {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee;
+    font-size: 1rem;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+main {
+    color: gray;
+}
+
+header, footer {
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+}
+
+article ul {
+    flex-direction: column;
+}
+
+nav {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.centrage {
+    justify-content: center;
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.pricing-section h1 {
+    flex-basis: 100%;
+    padding-left: 4rem;
+}
+
+article {
+    margin: 1rem;
+    padding: 1rem;
+    height: max-content;
+}
+
+section {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.price-card {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
+    border-radius: 0.3rem;
+    background-color: white;
+    box-shadow: silver 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+}
+
+.price-card a {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: #008CBA;
+}
+
+.price-card ul {
+    padding: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+article h3 {
+    color: green;
+    font-size: 1.5rem;
+}
+
+span {
+    color: darkgrey;
+    font-size: 1rem;
+}

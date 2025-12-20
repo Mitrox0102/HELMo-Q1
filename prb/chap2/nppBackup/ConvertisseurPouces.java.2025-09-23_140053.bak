@@ -1,0 +1,10 @@
+package chap2;
+
+public class ConvertisseurPouces {
+
+	public static void main(String[] args) {
+		System.out.println("Mon Convertisseur");
+		double chiffre = Console.lireDouble("Longueur en pouce ? ");
+		System.out.println(	chiffre * 2.54 + " cm");
+	}
+}

@@ -1,0 +1,60 @@
+// Exercice 1 slide 83
+
+1)int a = 5, b;
+
+	Cette instruction permet de déclarer 2 variabes nommées a et b.
+	La variable "a" est initialisée avec la valeur 5.
+	La variable "b" n'est pas initialisée.
+
+2) a = a + 1;
+
+	Cette instruction va lire la valeur de "a" pour lui ajouter 1.
+	Cette opération est couramment appelée "incrémentation"
+
+3) b = a;
+
+	Cette instruction permet d'écrire dans "b" la valeur enregistrée dans "a".
+	L'affectation s'effectue de droite à gauche.
+
+4) a = a;
+	
+	Cette opération est inutile puisqu'elle écrit dans "a" sa propre valeur.
+	"a" reste donc inchangée
+	
+// Exercice 3 slide 85
+
+	int a = 7, b = 10;
+	
+	a = a + b;  a = 17, b = 10
+	
+	b = a - b;  a = 17, b = 7
+	
+	a = a - b;  a = 10, b = 7
+	
+// Exercice 5 slide 87
+
+	int a = 4, b = 5, c = 6;
+	
+	a = 15;
+	
+	b = 26;
+	
+	c = 47;
+	
+	
+// Exercice 4 slide 86
+
+	int a = 7, b, c, d, q, r
+	
+	b = 10;
+	
+	c = 4;
+	
+	d = 24;
+	
+	b = 143;
+	
+	q = 1;
+	
+	r = 43;
+	

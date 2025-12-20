@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutualité</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Veuillez répondre au formulaire :</h1>
+
+    <form action="#" method="post">
+
+    <fieldset>
+        <legend>Identité</legend>
+    <h3>Statut social :</h3>
+    <input type="radio" id="monsieur" name="statut" value="Monsieur">
+    <label for="monsieur">Monsieur</label>
+
+    <input type="radio" id="madame" name="statut" value="Madame">
+    <label for="madame">Madame</label>
+    <br><br>
+
+    <h3>Nom :</h3>
+
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom" required>*<br><br>
+
+    <label for="prenom">Prénom :</label><br>
+    <input type="text" id="prenom" name="prenom" required>*<br><br>
+
+    <h3>Date de naissance :</h3>
+
+    <input type="date" id="date_naissance" name="date_naissance"><br><br>
+
+    <h3>Nombre d'enfants :</h3>
+    
+    <input type="number" id="nombre_enfants" name="nombre_enfants" min="0" max ="15" required><br><br>
+    <small>(Limite entre 0 et 15)</small>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Adresse</legend>
+
+    <h3>Adresse :</h3>
+
+    <label for="rue">Rue :</label><br>
+    <input type="text" id="rue" name="rue"><br><br>
+
+    <label for="numero_maison">Numéro de maison</label><br>
+    <input type="text" id="rue" name="rue"><br><br>
+
+    <label for="ville">Ville :</label><br>
+    <input type="text" id="ville" name="ville"><br><br>
+
+    <label for="code_postal">Code Postal :</label><br>
+    <input type="text" id="code_postal" name="code_postal"><br><br>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Situation familiale</legend>
+
+    <h3>Description de votre situation :</h3>
+
+    <textarea id="situation" name="situation" rows="4" cols="50"></textarea>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+
+        <legend>Préférences</legend>
+    <h3>Agence préférée :</h3>
+
+    <input type="checkbox" id ="liege" name="agence_pref"[] id="Liege">
+    <label for="liege">Liège</label>
+
+    <input type="checkbox" id ="namur" name="agence_pref"[] id="Namur">
+    <label for="namur">Namur</label>
+
+    <input type="checkbox" id ="mons" name="agence_pref"[] id="Mons">
+    <label for="mons">Mons</label>
+
+    <br><br>
+
+    </fieldset>
+
+    <br><br>
+
+    <input type="submit" value="Envoyer">
+    </form>
+</body>
+</html>

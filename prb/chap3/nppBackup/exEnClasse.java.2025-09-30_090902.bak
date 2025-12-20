@@ -1,0 +1,19 @@
+package chap3;
+
+public class exEnClasse{
+	
+	public static void main(String args[]){
+		
+		//Objectif transformer un nombre en base 10 en base 2. ex.(52)10  ->  (52)2
+		
+		System.out.println("Bienvenue dans le convertisseur en base 2 !");
+		double nombreDonne = Console.lireInt("Donnez un nombre compris entre 0 et 255");
+		
+		for(int i = 8; i >= 0; i --){
+			int bit = 0;
+			bit = nombreDonne % Math.pow(2,i);
+			System.out.print(bit);
+		}
+		
+	}
+}

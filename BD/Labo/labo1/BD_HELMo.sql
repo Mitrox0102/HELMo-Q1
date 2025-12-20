@@ -1,0 +1,5 @@
+--Exercice 1
+
+UPDATE CATEGORIE
+SET CATEGORIEPARENT = 3
+WHERE NOM = 'Informatique'

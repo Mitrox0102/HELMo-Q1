@@ -1,0 +1,17 @@
+.mon-bouton{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 2rem;
+    height: 1rem;
+    background-color: lightblue;
+    padding: 0.5rem;
+    margin: 30px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+span:hover{
+    background-color: blue;
+    color: white;
+}

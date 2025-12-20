@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/styleprestations.css">
+    <title>Festival HELMo - Prestations</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./img/logo_temporaire.png" alt="Logo du Festival HELMo">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../accueil/index.html">Accueil</a></li>
+                <li><a href="../artistes/artistes.html">Artistes</a></li>
+                <li><a href="../prestations/prestations.html">Prestations</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+                <li><a href="../apropos/apropos.html">À propos</a></li>
+            </ul>
+        </nav>
+
+        <a href="connexion.html">Se connecter</a>
+    </header>
+
+    <main>
+        
+        <h1>Prestations du jour</h1>
+
+        <section class="recherche-section">
+            <form action="#" method="get">
+                
+                <div class="champ-recherche">
+                    <label for="search">Rechercher :</label>
+                    <input type="text" id="search" name="search" placeholder="Mot-clé...">
+                </div>
+
+                <div class="champ-recherche">
+                    <label for="artiste-select">Par Genre :</label>
+                    <select id="artiste-select" name="artiste">
+                        <option value="">Tous les genres</option>
+                        <option value="green">Trap</option>
+                        <option value="moji">Boombap</option>
+                        <option value="fresh">E-pop</option>
+                    </select>
+                </div>
+
+                <div class="champ-recherche">
+                    <label for="categorie-select">Catégorie :</label>
+                    <select id="categorie-select" name="categorie">
+                        <option value="">Toutes</option>
+                        <option value="concert">Solo</option>
+                        <option value="atelier">Orchestre</option>
+                    </select>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="programmes-only" name="programmes-only">
+                    <label for="programmes-only">Afficher uniquement prestations programmées</label>
+                </div>
+
+                <input type="submit" value="Rechercher" class="btn-rechercher">
+            </form>
+        </section>
+
+        <section class="liste-prestations">
+
+            <article class="carte-prestation">
+                <a href="fiche-prestation.html">
+                    <div class="img-container">
+                        <img src="./img/artistes/moji_sboy.jpg" alt="Quitte ou double">
+                    </div>
+                    <div class="info-prestation">
+                        <h3>Quitte ou Double</h3>
+                        <p class="artiste-nom">Moji x Sboy</p>
+                        <p class="infos-pratiques">20h00 - Scène Ste Marie</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="carte-prestation">
+                <a href="fiche-prestation.html">
+                    <div class="img-container">
+                        <img src="./img/artistes/green_montana.jpg" alt="Saudade">
+                    </div>
+                    <div class="info-prestation">
+                        <h3>Saudade</h3>
+                        <p class="artiste-nom">Green Montana</p>
+                        <p class="infos-pratiques">20h00 - Scène Ste Julienne</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="carte-prestation">
+                <a href="fiche-prestation.html">
+                    <div class="img-container">
+                        <img src="./img/artistes/chico.jpg" alt="Retour de Freezer">
+                    </div>
+                    <div class="info-prestation">
+                        <h3>Retour de Freezer</h3>
+                        <p class="artiste-nom">Chico Montana</p>
+                        <p class="infos-pratiques">16h00 - Scène Ste Julienne</p>
+                    </div>
+                </a>
+            </article>
+
+            <article class="carte-prestation">
+                <a href="fiche-prestation.html">
+                    <div class="img-container">
+                        <img src="./img/artistes/zerr.jpg" alt="FVAM Stage 1">
+                    </div>
+                    <div class="info-prestation">
+                        <h3>FVAM Stage 1</h3>
+                        <p class="artiste-nom">Zerr</p>
+                        <p class="infos-pratiques">14h00 - Scène Ste Julienne</p>
+                    </div>
+                </a>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Festival HELMo — Tous droits réservés | Mentions légales | Contact : <a href="mailto:info@festival.helmo.be">info@festival.helmo.be</a></p>
+    </footer>
+
+</body>
+</html>

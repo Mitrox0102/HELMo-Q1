@@ -1,0 +1,302 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="w_GGyX1L0-ttYWiGxvBp">
+    <mxGraphModel dx="1240" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-4" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="88" y="40" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-5" value="S&#39;identifier pour continuer" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="292" y="280" width="242" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-6" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Bienvenu.e sur Fashion Adivsor&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238" y="140" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-7" value="La référence Numéro 1 en terme de mode.*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="228" y="195" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-8" value="*D&#39;après notre unique testeur (moi)." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="82" y="430" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-9" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="88" y="500" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-10" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Bienvenue Aude Javel !&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="288" y="600" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-11" value="Encoder une vêtement" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="710" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-12" value="Demander recommandation" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="710" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-13" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="1270" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-15" value="Encoder un vêtement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1200" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="1660" as="sourcePoint" />
+            <mxPoint x="590" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-18" value="Connecté.e en tant que Aude J." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1320" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-19" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Se déconnecter&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1325" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-20" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.61;dx=16.77;flipH=1;notch=7.48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1320" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-21" value="Retour à l&#39;accueil" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1315" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-22" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;(en euros)&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.pwField;strokeColor=#999999;mainText=;align=left;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1410" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Autre&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1470" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-25" value="Prix d&#39;achat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1388" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-26" value="Marque *" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="91" y="1449" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-27" value="Kappa" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.pwField;strokeColor=#999999;mainText=;align=left;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="268" y="1470" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-28" value="Nom de la marque" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1448" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwyJ2FvCKa4yIGxwHXW7-29" target="AwyJ2FvCKa4yIGxwHXW7-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-29" value="Si une marque n&#39;est pas présente dans la liste, l&#39;utilisateur peut choisir autre et alors saisir le nom de la marque" style="shape=note;size=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1704" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-32" value="Couleur principale" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="1519" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Noir&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1540" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-34" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Informations sur le vêtement&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1350" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-35" value="&lt;font&gt;Informations sur le vêtement&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="588" y="1390" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-36" value="Prochaine étape" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1630" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-37" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="1840" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-38" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="2230" as="sourcePoint" />
+            <mxPoint x="590" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-39" value="Connecté.e en tant que Aude J." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1890" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-40" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Se déconnecter&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1895" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-41" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.61;dx=16.77;flipH=1;notch=7.48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1890" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-42" value="Retour à l&#39;accueil" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1885" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-43" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Catégorisation du vêtement 1/2&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268" y="1920" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-44" value="&lt;font&gt;Informations sur le vêtement&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="588" y="1960" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-45" value="&lt;font style=&quot;&quot;&gt;Catégorisation du vêtement 1/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="2009" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-46" value="&lt;font style=&quot;color: rgb(204, 204, 204);&quot;&gt;Catégorisation du vêtement 1/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1440" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-48" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Haut&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2031" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-49" value="Catégorie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="101" y="2009" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-50" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Gilet&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="359" y="2031" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-51" value="Type de vêtement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="347" y="2009" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-52" value="Cette liste déroulante apparaît avec les types seulement après que l&#39;utilisateur ait mis la catégorie du vêtement, sinon elle est grisée et pas cliquable" style="shape=note;size=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1710" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.006;entryY=0.566;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwyJ2FvCKa4yIGxwHXW7-52" target="AwyJ2FvCKa4yIGxwHXW7-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="1921" />
+              <mxPoint x="580" y="1921" />
+              <mxPoint x="580" y="2042" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-54" value="Prochaine étape" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2190" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-55" value="Etape précédente" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#808080;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2190" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-57" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="2380" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-58" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="2770" as="sourcePoint" />
+            <mxPoint x="590" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-59" value="Connecté.e en tant que Aude J." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2430" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-60" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Se déconnecter&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2435" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-61" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.61;dx=16.77;flipH=1;notch=7.48;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-62" value="Retour à l&#39;accueil" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2425" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-63" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Catégorisation du vêtement 2/2&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="268" y="2470" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-64" value="&lt;font&gt;Informations sur le vêtement&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="588" y="2500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-65" value="&lt;font style=&quot;&quot;&gt;Catégorisation du vêtement 1/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="2560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-66" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Hiver&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2542" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-67" value="Saison" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="109" y="2520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-68" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Froid (0-10°C)&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2612" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-69" value="Température" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="109" y="2590" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-70" value="Valider vêtement" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2730" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-71" value="Etape précédente" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#808080;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2730" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-72" value="&lt;font style=&quot;color: rgb(204, 204, 204);&quot;&gt;Catégorisation du vêtement 2/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1490" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-74" value="&lt;font style=&quot;&quot;&gt;Catégorisation du vêtement 2/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="2620" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-75" value="Très froid (&amp;lt; 0°C)&lt;br/&gt;Froid (0–10°C)&lt;br/&gt;Doux (10–18°C)&lt;br/&gt;Chaud (18–25°C)&lt;br/&gt;Très chaud (&amp;gt; 25°C)" style="shape=note;size=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="2810" width="115" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwyJ2FvCKa4yIGxwHXW7-75" target="AwyJ2FvCKa4yIGxwHXW7-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-77" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Pluie fine&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="2542" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-78" value="Précipitations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="351.5" y="2520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-79" value="Aucune&lt;br&gt;Pluie fine&lt;br&gt;Pluie forte&lt;br&gt;Neige&lt;br&gt;Grêle" style="shape=note;size=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2820" width="93" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwyJ2FvCKa4yIGxwHXW7-79" target="AwyJ2FvCKa4yIGxwHXW7-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="221" y="2710" />
+              <mxPoint x="350" y="2710" />
+              <mxPoint x="350" y="2553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-81" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Couvert&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="2612" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-82" value="Ensoleillement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="2590" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-83" value="Couvert&lt;br&gt;Partiellement ensoleillé&lt;br&gt;Ensoleillé&lt;br&gt;Très ensoleillé" style="shape=note;size=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353.5" y="2820" width="133" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.314;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AwyJ2FvCKa4yIGxwHXW7-83" target="AwyJ2FvCKa4yIGxwHXW7-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="2770" />
+              <mxPoint x="410" y="2770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-85" value="Fashion Advisor" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="3020" width="650" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-87" value="Connecté.e en tant que Aude J." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="448" y="3070" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-88" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Se déconnecter&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="638" y="3075" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-89" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.61;dx=16.77;flipH=1;notch=7.48;" vertex="1" parent="1">
+          <mxGeometry x="98" y="3070" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-90" value="Retour à l&#39;accueil" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="128" y="3065" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-91" value="&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Recommandation de vêtement&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="271" y="3100" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-94" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Haut&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="113" y="3211" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-95" value="Catégorie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="99" y="3189" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-96" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Gilet&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=#ddeeff;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="357" y="3211" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-97" value="Type de vêtement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="3189" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-98" value="Prochaine étape" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="418" y="3370" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-99" value="Etape précédente" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#808080;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="253" y="3370" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-101" value="Demander une recommandation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=29;" vertex="1" parent="1">
+          <mxGeometry x="69.5" y="2970" width="440" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AwyJ2FvCKa4yIGxwHXW7-102" value="&lt;font style=&quot;color: rgb(204, 204, 204);&quot;&gt;Catégorisation du vêtement 2/2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="583" y="2060" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

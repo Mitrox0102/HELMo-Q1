@@ -1,0 +1,198 @@
+/* RESET DE BASE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* TYPO & COULEURS GLOBALES */
+body {
+  background-color: #eee;
+  color: dimgray;
+  font-family: Arial, sans-serif;
+}
+
+/* LIENS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: overline;
+  text-decoration-color: green;
+}
+
+/* CONTENEUR CENTRAL GÉNÉRIQUE */
+header > div,
+main,
+footer > div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+}
+
+/* HEADER */
+header {
+  background-color: #363636;
+  color: white;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+
+/* BLOC INTRO (1re section) */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* section intro = texte + image + liste forces */
+main > section:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* bloc texte principal */
+blockquote {
+  text-align: center;
+  font-size: 1.5rem;
+  flex: 1 1 280px;
+}
+
+/* mise en avant du nom */
+blockquote > span,
+.highlight {
+  background-color: green;
+  color: white;
+  border-radius: 7%;
+  padding: 0 0.25em;
+}
+
+/* image de présentation */
+main > section:first-of-type > img {
+  flex: 1 1 280px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* titre + liste des forces sur toute la largeur */
+main > section:first-of-type h1,
+main > section:first-of-type ul {
+  flex: 1 1 100%;
+}
+
+main > section:first-of-type h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* liste forces */
+main > section:first-of-type ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+main > section:first-of-type ul li span {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 0.35rem;
+}
+
+/* SECTION TRAVAUX RÉCENTS (2e section) */
+main > section:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* titre pleine largeur */
+main > section:nth-of-type(2) > h2 {
+  flex: 1 1 100%;
+  font-size: 1.75rem;
+}
+
+/* cartes projets */
+article {
+  background-color: white;
+  border: 1px solid #363636;
+  flex: 0 0 calc(25% - 0.5rem * 0.75);
+  max-width: calc(25% - 0.5rem * 0.75);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+article h3 {
+  font-size: 1.1rem;
+}
+
+article p {
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #363636;
+  color: white;
+}
+
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* 3 colonnes responsives */
+footer > div > div {
+  flex: 1 1 200px;
+}
+
+footer div h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div ul li {
+  margin-bottom: 0.25rem;
+}
+
+footer a {
+  color: green;
+}

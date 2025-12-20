@@ -1,0 +1,193 @@
+package chap3;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.BufferedImage;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.*;
+
+import util.Chronometre;
+
+/**
+ * Cette classe permet de réaliser un jeu de rapidité basé sur la précision des clics à la souris.
+ *
+ * @author Arnaud Comblin
+ */
+public class SuperClics {
+
+	/* Logique du jeu */
+
+	public static void main(String[] args) {
+		// Démarrage de l'interface graphique
+		SuperClics superClics = new SuperClics("Super Clics", 600, 600);
+		superClics.initialiser();
+		superClics.afficher();
+	}
+
+
+	private void initialiser() {
+        int xCercle = (int) (Math.random() * 600);
+        int yCercle = (int) (Math.random() * 600);
+		dessinerCercle(xCercle, yCercle, 4);
+        
+        enregistrerEntier("xCercle", xCercle);
+        enregistrerEntier("yCercle", yCercle);
+        
+        Chronometre.demarrer();
+	}
+
+	private void clicSouris(int xClic, int yClic) {
+		//System.out.println("(" + xClic + " , " + yClic + ")"); 
+        int xCercle = lireEntier("xCercle");
+        int yCercle = lireEntier("yCercle");
+        double distPointClic = Math.sqrt(Math.pow((xClic - xCercle), 2) + Math.pow((yClic - yCercle), 2));
+        
+        double dureeEnSec = Chronometre.dureeEcoulee() / 1000.0;
+        
+        if (distPointClic = 0){
+            distPointClic = 0.000000000000001;
+        }
+        
+        double score = (100) / (dureeEnSec * distPointClic);
+        
+        System.out.println(score);
+        Chronometre.demarrer();
+        
+        System.out.println(distPointClic);
+	}
+
+	/* Interface graphique du jeu */
+
+	private JFrame cadre;
+	private Panneau panneau;
+	private Map<String, Integer> valeurs;
+
+	/**
+	 * Crée une fenêtre destinée à afficher une scène 2D.
+	 * 
+	 * @param titre   le titre principal de la fenêtre.
+	 * @param largeur la largeur exprimée en pixels de l'intérieur de la fenêtre.
+	 * @param hauteur la hauteur exprimée en pixels de l'intérieur de la fenêtre.
+	 */
+	public SuperClics(String titre, int largeur, int hauteur) {
+		cadre = new JFrame(titre);
+		cadre.setFocusable(true);
+		cadre.setResizable(false);
+		cadre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		panneau = new Panneau();
+		panneau.setLayout(null);
+		panneau.setBackground(new Color(240, 240, 240));
+		panneau.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent evenement) {
+				clicSouris(evenement.getX(), evenement.getY());
+			}
+		});
+		cadre.add(panneau);
+
+		setDimensions(largeur, hauteur);
+
+		valeurs = new HashMap<String, Integer>();
+	}
+
+	/**
+	 * Affiche la fenêtre. Cette fonction doit être exécutée une fois tous les
+	 * éléments ajoutés. Dans le cas contraire, certains éléments pourraient ne pas
+	 * s'afficher correctement.
+	 */
+	public void afficher() {
+		cadre.setVisible(true);
+	}
+
+	private void setDimensions(int largeur, int hauteur) {
+		Dimension resolutionEcran = Toolkit.getDefaultToolkit().getScreenSize();
+		largeur = Math.min(Math.max(160, largeur), (int) resolutionEcran.getWidth());
+		hauteur = Math.min(Math.max(120, hauteur), (int) resolutionEcran.getHeight());
+		panneau.setPreferredSize(new Dimension(largeur, hauteur));
+		cadre.pack();
+		panneau.effacer();
+	}
+
+	/**
+	 * Enregistre une valeur entière.
+	 * 
+	 * @param nom    le nom sous lequel la valeur doit être enregistrée.
+	 * @param valeur la valeur entière.
+	 */
+	public void enregistrerEntier(String nom, int valeur) {
+		this.valeurs.put(nom, valeur);
+	}
+
+	/**
+	 * Lit une valeur entière précédemment enregistrée.
+	 * 
+	 * @param nom le nom sous lequel la valeur a été enregistrée.
+	 * @return la valeur entière correspondante.
+	 */
+	public int lireEntier(String nom) {
+		return this.valeurs.get(nom);
+	}
+
+	/**
+	 * Dessine un cercle sur base des coordonnées de son centre et de son rayon.
+	 * 
+	 * @param x     la coordonnée x du centre du cercle.
+	 * @param y     la coordonnée y du centre du cercle.
+	 * @param rayon le rayon du cercle.
+	 */
+	public void dessinerCercle(int x, int y, int rayon) {
+		panneau.dessinerCercle(Color.BLACK, x, y, rayon);
+	}
+
+	/**
+	 * Efface tous les dessins effectués dans la fenêtre.
+	 */
+	public void effacer() {
+		panneau.effacer();
+	}
+
+	/**
+	 * Ferme la fenêtre.
+	 */
+	public void fermer() {
+		cadre.dispatchEvent(new WindowEvent(cadre, WindowEvent.WINDOW_CLOSING));
+	}
+
+	private class Panneau extends JPanel {
+
+		private static final long serialVersionUID = -2259378431692527399L;
+
+		private BufferedImage bufferedImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+		private Graphics2D graphics = (Graphics2D) bufferedImage.getGraphics();
+
+		@Override
+		public void setPreferredSize(Dimension preferredSize) {
+			super.setPreferredSize(preferredSize);
+			bufferedImage = new BufferedImage(preferredSize.width, preferredSize.height, BufferedImage.TYPE_INT_RGB);
+			graphics = (Graphics2D) bufferedImage.getGraphics();
+		}
+
+		public void effacer() {
+			graphics.setColor(getBackground());
+			graphics.fillRect(0, 0, getWidth(), getHeight());
+			repaint();
+		}
+
+		public void dessinerCercle(Color couleur, int x, int y, int rayon) {
+			graphics.setColor(couleur);
+			graphics.fillOval(x - rayon, y - rayon, 2 * rayon, 2 * rayon);
+			repaint();
+		}
+
+		@Override
+		public void paintComponent(Graphics g) {
+			super.paintComponent(g);
+			g.drawImage(bufferedImage, 0, 0, null);
+		}
+
+	}
+
+}

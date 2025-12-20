@@ -1,0 +1,8 @@
+package chap2;
+
+public class ConvertisseurPouces {
+
+	public static void main(String[] args) {
+		System.out.println("Mon Convertisseur");
+	}
+}

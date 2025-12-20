@@ -1,0 +1,47 @@
+
+CREATE TABLE Personne (
+    noPersonne INTEGER PRIMARY KEY,
+    nom VARCHAR(60),
+    prenom VARCHAR(60),
+    dateDeNaissance DATE
+);
+
+CREATE TABLE Film (
+    noFilm INTEGER PRIMARY KEY,
+    titre VARCHAR(60),
+    dateSortie DATE,
+    duree INTEGER
+);
+
+CREATE TABLE Salle (
+    noSalle INTEGER PRIMARY KEY,
+    capacite INTEGER
+);
+
+CREATE TABLE Acteur (
+    noFilm INTEGER,
+    noPersonne INTEGER,
+    role VARCHAR(20) PRIMARY KEY,
+    PRIMARY KEY (noFilm, noPersonne, role),
+    FOREIGN KEY(noFilm) REFERENCES Film(noFilm),
+    FOREIGN KEY(noPersonne) REFERENCES Personne(noPersonne)
+);
+
+CREATE TABLE Realisateur (
+    noPersonne INTEGER,
+    noFilm INTEGER,
+    PRIMARY KEY (noPersonne, noFilm),
+    FOREIGN KEY(noFilm) REFERENCES Film(noFilm),
+    FOREIGN KEY(noPersonne) REFERENCES Personne(noPersonne)
+);
+
+CREATE TABLE Seance(
+    noSalle INTEGER,
+    noFilm INTEGER,
+    dateSeance DATE,
+    heureSeance TIME,
+    nombrePlacesVendues INTEGER,
+    PRIMARY KEY (noSalle, noFilm, dateSeance, heureSeance),
+    FOREIGN KEY (noSalle) REFERENCES Salle(noSalle),
+    FOREIGN KEY (noFilm) REFERENCES Film(noFilm)
+);

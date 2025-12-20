@@ -1,0 +1,8 @@
+Ex 1
+
+Que représentent les valeurs de la variable chiffre par rapport à la valeur initiale de la variable nombre ?
+→La valeur chiffre représente le premier chiffre du nombre entré.
+
+Que permet de calculer la variable somme ?
+→La variable somme nous permet de calculer la somme de tous les chiffres qui composent le nombre.
+

@@ -1,0 +1,89 @@
+→
+[LIGNE 1] labo1
+→labo1 est le nom du package, cela indique que le dossier parent
+doit être nommé "labo1"
+
+[LIGNE 3] JourDeLaSemaine
+→"JourDeLaSemaine" est le nom de la classe et aussi le nom du fichier .java
+ou le programme va être sauvegarder.
+
+[LIGNE 5] main
+→C'est le nom de la fonction principale, celle qui s'exécute
+au lancement de l'application
+
+[LIGNE 6] // Variables pour...
+→C'est un commentaire. ce texte sera ignoré par le
+compilateur. Il ne sert qu'à décrire le code.
+
+[LIGNE 7] 27
+→Valeur littérale (codée en dur) de tyoe int.
+
+[LIGNE 7] jour = 27
+→C'est une opération d'affectation (d'assignation) qui permet
+d'enregistrer une valeur dans une variable. Dans ce cas, c'est 
+une initialisation de la variable car c'est sa première affectation.
+
+[LIGNE 13] int jourDeLaSemaine
+→C'est une déclaration (définition) de variable qui permet d'utiliser
+de l'espace mémoire au moment de l'exécution
+pour y enregistrer de l'information.
+
+[LIGNE 16] (14 - mois) / 12
+→C'est une expression arithémtique, qui produit donc un
+résultat numérique.
+
+[LIGNE 23] System.out.println(jourDeLaSemaine)
+→Appel de la fonction "println"
+
+
+Ex 2
+
+
+[LIGNE 7] Renommez la variable annee en année.
+→Ca nous dit qu'à la ligne 17 la variable "annee" n'existe pas.
+Ce qui est normal étant donné qu'on a renommé sa déclaration en année.
+
+[LIGNE 3] Modifiez le nom de la classe en remplaçant la lettre J majuscule par son équivalent minuscule.
+→Ca nous dit que la variable "jourDeLaSemaine" est public et qu'elle devrait se trouver dans un fichier .java
+nommé "JourDeLaSemaine"
+
+[LIGNE 16] Placez en commentaire l’instruction //anneeEnCours = (14 -...
+→Ca nous indique que la variable anneeEnCours n'a pas été affectée.
+
+[LIGNE 5] Supprimez l’accolade ouvrante {.
+→Ca nous indique que tout le code est faux et il ne reconnait aucune donnée présente.
+
+[QUESTION FACULTATIVE] Voici une question beaucoup plus difficile. Quelle est l’explication de l’erreur détectée en effectuant la modification ci-dessous (indice : la base 8 n’y est pas étrangère) ?
+
+[LIGNE 7] ajoutez un zéro en préfixe du littéral entier 9.
+→Lorsqu'on met 9 après, java pense qu'on écrit en base 9 et vu qu'il est en octale,
+Java crash.
+
+Ex 3
+
+Modifiez le code source du programme JourDeLaSemaine de manière à reproduire l’erreur affichée par le compilateur :
+
+Erreur n°1
+→J'ai supprimé le ; à la ligne 10
+
+Erreur n°2
+→J'ai fait une redondance et 
+re initialisé une variable existante.
+
+Erreur n°3
+→J'ai oté le S majuscule a System et ca n'a pas reconnu.
+
+Erreur n°4
+→On a enlevé l'avant-dernière }
+
+Ex 4
+
+
+[LIGNE 5] Supprimez le contenu des parenthèses (String[] args).
+→Ca ne detecte pas qu'on a utilisé une fonction main.
+
+[LIGNE 7] Remplacez le littéral 2024 par 2000000000 (2 milliards).
+→Ca fonctionne mais ca affiche -1, qui est impossible.
+
+[LIGNE 16] Remplacez le littéral 12 par 0.
+→Ca affiche 6 sur le terminal.

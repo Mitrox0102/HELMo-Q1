@@ -1,0 +1,11 @@
+// Exercice 1 slide 83
+
+1)int a = 5, b;
+
+	Cette instruction permet de déclarer 2 variabes nommées a et b.
+
+a = a + 1;
+
+b = a;
+
+a = a;

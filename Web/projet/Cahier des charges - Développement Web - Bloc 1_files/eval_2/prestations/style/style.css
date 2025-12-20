@@ -1,0 +1,244 @@
+/*
+couleurs pallette :
+#0F172A (bleu foncé)
+#1E293B (bleu moyen)
+#94A3B8 (bleu clair)
+beige
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F172A;
+    padding: 10px 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+    display: block;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+li>a:hover {
+    color: #94a3b8;
+}
+
+header>a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1rem;
+    font-weight: bold;
+    border: beige 2px solid;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    transition: all 0.3s;
+}
+
+header>a:hover {
+    background-color: beige;
+    color: #0f172a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    flex: 1;
+    width: 100%;
+}
+
+td>a {
+    color: #0f172a;
+}
+
+.recherche-section {
+    background-color: #1E293B;
+    color: beige;
+    padding: 2rem;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.recherche-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.champ-recherche {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    flex: 1;
+}
+
+.champ-recherche label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.champ-recherche input[type="text"],
+.champ-recherche select {
+    padding: 10px;
+    border: 1px solid #94A3B8;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    font-size: 1rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-rechercher {
+    background-color: beige;
+    color: #0F172A;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.btn-rechercher:hover {
+    background-color: #94A3B8;
+}
+
+.liste-prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 3rem;
+}
+
+.carte-prestation {
+    background-color: #fff;
+    border: 2px solid #0F172A;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.carte-prestation:hover {
+    transform: scale(1.02);
+}
+
+.carte-prestation a {
+    text-decoration: none;
+    color: #0F172A;
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-prestation {
+    padding: 15px;
+    text-align: left;
+}
+
+.info-prestation h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #0F172A;
+}
+
+.artiste-nom {
+    font-weight: bold;
+    color: #1E293B;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.infos-pratiques {
+    background-color: #0F172A;
+    color: beige;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+footer {
+    background-color: #0F172A;
+}
+
+footer>p {
+    text-align: center;
+    padding: 1rem;
+    color: beige;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .recherche-section form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .checkbox-container {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .btn-rechercher {
+        width: 100%;
+    }
+
+    .carte-prestation {
+        width: 100%;
+    }
+}

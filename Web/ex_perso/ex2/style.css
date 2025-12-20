@@ -1,0 +1,25 @@
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: lightslategray;
+    padding: 2rem;
+    margin: 0;
+}
+
+ul :hover {
+    background-color: red;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

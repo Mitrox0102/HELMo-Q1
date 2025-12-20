@@ -1,0 +1,205 @@
+/*
+couleurs pallette :
+#0F172A (bleu foncé)
+#1E293B (bleu moyen)
+#94A3B8 (bleu clair)
+beige
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F172A;
+    padding: 10px 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+    display: block;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+li>a:hover {
+    color: #94a3b8;
+}
+
+header>a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1rem;
+    font-weight: bold;
+    border: beige 2px solid;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    transition: all 0.3s;
+}
+
+header>a:hover {
+    background-color: beige;
+    color: #0f172a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    flex: 1;
+    width: 100%;
+}
+
+td>a {
+    color: #0f172a;
+}
+
+.filtres {
+    background-color: #1E293B;
+    color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.filtres form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+.btn-filtrer {
+    background-color: beige;
+    color: #0F172A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-filtrer:hover {
+    background-color: #94A3B8;
+}
+
+.galerie-artistes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.carte-artiste {
+    background-color: #1E293B;
+    border-radius: 10px;
+    margin: 15px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+
+.carte-artiste:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.4);
+}
+
+.carte-artiste a {
+    text-decoration: none;
+    color: beige;
+    display: block;
+}
+
+.img-container {
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-artiste {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-artiste h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+.creneau {
+    font-size: 0.9rem;
+    color: #94A3B8;
+    font-style: italic;
+}
+
+footer {
+    background-color: #0F172A;
+}
+
+footer>p {
+    text-align: center;
+    padding: 1rem;
+    color: beige;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .filtres-section form {
+        flex-direction: column;
+    }
+    
+    .checkbox-container {
+        margin-right: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .carte-artiste {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
