@@ -1,0 +1,829 @@
+/*
+couleurs pallette :
+#0F172A (bleu foncé)
+#1E293B (bleu moyen)
+#94A3B8 (bleu clair)
+beige
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F172A;
+    padding: 10px 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+    display: block;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+li>a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+li>a:hover {
+    color: #94a3b8;
+}
+
+header>a {
+    text-decoration: none;
+    color: beige;
+    font-size: 1rem;
+    font-weight: bold;
+    border: beige 2px solid;
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    transition: all 0.3s;
+}
+
+header>a:hover {
+    background-color: beige;
+    color: #0f172a;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    flex: 1;
+    width: 100%;
+}
+
+h1 {
+    color: #0F172A;
+    margin-bottom: 1rem;
+}
+
+/* Accueil Section */
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8fafc;
+    border: #1e293b 2px solid;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(248, 250, 252, 0.85);
+    z-index: 1;
+}
+
+.accueil>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(2px);
+}
+
+.accueil h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+
+.accueil p {
+    font-size: 1.2rem;
+    color: #334155;
+    margin-bottom: 2rem;
+}
+
+.accueil p a {
+    text-decoration: none;
+    background-color: #1e293b;
+    color: beige;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: #0f172a 2px solid;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.accueil p a:hover {
+    background-color: #334155;
+    transform: scale(1.05);
+}
+
+.programme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e293b;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.programme>h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: beige;
+}
+
+.programme_table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #0f172a;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 1.2rem;
+}
+
+.programme_table th, .programme_table td {
+    border: 1px solid #1e293b;
+    padding: 10px 15px;
+    text-align: center;
+    color: #333;
+}
+
+.programme_table th {
+    text-decoration: none;
+    background-color: #0f172a;
+    color: beige;
+    font-weight: bold;
+}
+
+td>a {
+    color: #0f172a;
+}
+
+/* Artistes Section */
+
+
+.filtres {
+    background-color: #1E293B;
+    color: beige;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.filtres form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+.btn-filtrer {
+    background-color: beige;
+    color: #0F172A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.btn-filtrer:hover {
+    background-color: #94A3B8;
+}
+
+.galerie-artistes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.carte-artiste {
+    background-color: #1E293B;
+    border-radius: 10px;
+    margin: 15px;
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+    transition: all 0.3s;
+}
+
+.carte-artiste:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.4);
+}
+
+.carte-artiste a {
+    text-decoration: none;
+    color: beige;
+    display: block;
+}
+
+.img-container {
+    width: 100%;
+    height: 250px;
+    background-color: #cccccc;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-artiste {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-artiste h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: beige;
+}
+
+.creneau {
+    font-size: 0.9rem;
+    color: #94A3B8;
+    font-style: italic;
+}
+
+/* Prestations Section */
+
+
+.recherche-section {
+    background-color: #1E293B;
+    color: beige;
+    padding: 2rem;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.recherche-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.champ-recherche {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    flex: 1;
+}
+
+.champ-recherche label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.champ-recherche input[type="text"],
+.champ-recherche select {
+    padding: 10px;
+    border: 1px solid #94A3B8;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    font-size: 1rem;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-rechercher {
+    background-color: beige;
+    color: #0F172A;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.btn-rechercher:hover {
+    background-color: #94A3B8;
+}
+
+.liste-prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 95%;
+    gap: 20px;
+    margin-bottom: 3rem;
+}
+
+.carte-prestation {
+    background-color: #fff;
+    border: 2px solid #0F172A;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.carte-prestation:hover {
+    transform: scale(1.02);
+}
+
+.carte-prestation a {
+    text-decoration: none;
+    color: #0F172A;
+}
+
+.img-container {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-prestation {
+    padding: 15px;
+    text-align: left;
+}
+
+.info-prestation h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #0F172A;
+}
+
+.artiste-nom {
+    font-weight: bold;
+    color: #1E293B;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.infos-pratiques {
+    background-color: #0F172A;
+    color: beige;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+/* Contact Section */
+
+.contact {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.contact fieldset {
+    border: 2px solid #0F172A;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact fieldset legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #0F172A;
+    font-size: 1.2rem;
+}
+
+.contact fieldset label {
+    display: block;
+    margin-top: 15px;
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.contact fieldset input[type="text"],
+.contact fieldset input[type="email"],
+.contact fieldset textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #94A3B8;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f8fafc;
+}
+
+.contact fieldset textarea {
+    resize: vertical;
+}
+
+.contact fieldset input[type="submit"] {
+    background-color: #0F172A;
+    color: beige;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid beige;
+    border-radius: 40px;
+    padding: 0.8rem 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.contact fieldset input[type="submit"]:hover {
+    background-color: beige;
+    color: #0F172A;
+    border-color: #0F172A;
+}
+
+/* Connexion Section */
+
+.connexion_form {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.connexion {
+    border: 2px solid #0F172A;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.connexion legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #0F172A;
+    font-size: 1.2rem;
+}
+
+.connexion label {
+    display: block;
+    margin-top: 15px;
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.connexion input[type="email"],
+.connexion input[type ="password"],
+.connexion textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #94A3B8;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f8fafc;
+}
+
+.connexion textarea {
+    resize: vertical;
+}
+
+.connexion input[type="submit"] {
+    background-color: #0F172A;
+    color: beige;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid beige;
+    border-radius: 40px;
+    padding: 0.8rem 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.connexion input[type="submit"]:hover {
+    background-color: beige;
+    color: #0F172A;
+    border-color: #0F172A;
+}
+
+
+/* Apropos Section */
+
+.apropos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #1E293B;
+    color: beige;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.images-apropos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.images-apropos img:hover {
+    transform: scale(1.1);
+}
+
+.apropos p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    font-size: 1.2rem;
+
+}
+
+.images-apropos img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+/* Inscription Section */
+
+.inscription_form {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.inscription {
+    border: 2px solid #0F172A;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.inscription legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #0F172A;
+    font-size: 1.2rem;
+}
+
+.inscription label {
+    display: block;
+    margin-top: 15px;
+    color: #1E293B;
+    font-weight: bold;
+}
+
+.inscription input[type="email"],
+.inscription input[type ="password"],
+.inscription input[type="text"],
+.inscription textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #94A3B8;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f8fafc;
+}
+
+.inscription textarea {
+    resize: vertical;
+}
+
+.inscription input[type="submit"] {
+    background-color: #0F172A;
+    color: beige;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid beige;
+    border-radius: 40px;
+    padding: 0.8rem 2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.inscription input[type="submit"]:hover {
+    background-color: beige;
+    color: #0F172A;
+    border-color: #0F172A;
+}
+
+/* Fiche Artiste Section */
+
+.fiche-artiste {
+    display: flex;
+    width: 80%;
+    background-color: #1E293B;
+    color: beige;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.fiche-artiste h2 {
+    margin-bottom: 1rem;
+}
+
+.fiche-artiste .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.fiche-artiste p {
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.details-artiste {
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.details-artiste a {
+    color: beige;
+}
+
+/* Fiche Prestation Section */
+
+.fiche-prestation {
+    display: flex;
+    width: 80%;
+    background-color: #1E293B;
+    color: beige;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.photo-prestation img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.details-prestation {
+    margin-right: 2rem;
+    flex: 1;
+}
+
+.details-prestation h3 {
+    margin-bottom: 1rem;
+}
+
+.details-prestation h3 a {
+    color: beige;
+
+}
+
+.fiche-prestation p {
+    margin-top: 1rem;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #0F172A;
+}
+
+footer a {
+    color: beige;
+    font-weight: bold;
+}
+
+footer>p {
+    text-align: center;
+    padding: 1rem;
+    color: beige;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    nav>ul {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    li>a {
+        padding: 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    header>a {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .accueil, .apropos, .fiche-artiste, .fiche-prestation {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .recherche-section form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .champ-recherche {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .carte-artiste, .carte-prestation {
+        width: 100%;
+        max-width: 400px;
+        margin: 15px 0;
+    }
+
+    .fiche-artiste, .fiche-prestation {
+        flex-direction: column;
+    }
+
+    .details-artiste, .details-prestation {
+        margin-left: 0;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .img-container {
+        max-height: 300px;
+    }
+
+    .programme_table {
+        overflow-x: auto;
+    }
+
+    .images-apropos img {
+        width: 100%;
+        height: auto;
+    }
+}
