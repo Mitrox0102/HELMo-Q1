@@ -85,6 +85,20 @@ h1 {
     margin-bottom: 1rem;
 }
 
+span {
+    text-decoration: underline;
+    background-color: beige;
+    color: #0F172A;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+
+span:hover {
+    background-color: #94A3B8;
+    color: #0F172A;
+}
+
 /* Accueil Section */
 
 .accueil {
